@@ -1,0 +1,19 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env
+
+# SQLite databases
+events.db
+*.db
+*.sqlite
+*.sqlite3
+*-journal
+
+# Testing tools 
+.pytest_cache/
