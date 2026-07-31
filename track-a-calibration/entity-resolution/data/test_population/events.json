@@ -1,0 +1,28 @@
+{
+  "events": [
+    {"event_id": "p1_e1", "true_person": "priya_colleague", "calendar_name": "Priya", "location": "office_coffee_shop", "time_slot": "tue_morning"},
+    {"event_id": "p1_e2", "true_person": "priya_colleague", "calendar_name": "Priya", "location": "office_coffee_shop", "time_slot": "tue_morning"},
+    {"event_id": "p1_e3", "true_person": "priya_colleague", "mentioned_name": "Priya", "location": "office_coffee_shop", "time_slot": "thu_morning"},
+
+    {"event_id": "p2_e1", "true_person": "priya_cousin", "mentioned_name": "Priya", "mentioned_relationship": "cousin", "time_slot": "sun_evening"},
+    {"event_id": "p2_e2", "true_person": "priya_cousin", "mentioned_name": "Priya", "mentioned_relationship": "cousin", "time_slot": "sun_evening"},
+
+    {"event_id": "p3_e1", "true_person": "alex_partner", "calendar_name": "Alex", "location": "home", "time_slot": "fri_evening"},
+    {"event_id": "p3_e2", "true_person": "alex_partner", "mentioned_name": "Alex", "location": "home", "time_slot": "sat_morning"},
+    {"event_id": "p3_e3", "true_person": "alex_partner", "calendar_name": "Alex", "location": "home", "time_slot": "fri_evening"},
+
+    {"event_id": "p4_e1", "true_person": "sam_friend", "mentioned_name": "Sam", "location": "climbing_gym", "time_slot": "wed_evening"},
+    {"event_id": "p4_e2", "true_person": "sam_friend", "mentioned_name": "Sam", "location": "climbing_gym", "time_slot": "wed_evening"},
+
+    {"event_id": "p5_e1", "true_person": "rahul_manager", "mentioned_relationship": "my manager", "location": "office", "time_slot": "mon_morning"},
+    {"event_id": "p5_e2", "true_person": "rahul_manager", "calendar_name": "Rahul", "location": "office", "time_slot": "mon_morning"},
+
+    {"event_id": "p6_e1", "true_person": "mom", "mentioned_relationship": "mom", "time_slot": "sun_evening"},
+    {"event_id": "p6_e2", "true_person": "mom", "mentioned_relationship": "mom", "time_slot": "sun_evening"},
+
+    {"event_id": "p7_e1", "true_person": "dev_gym", "mentioned_name": "Dev", "location": "climbing_gym", "time_slot": "wed_evening"},
+
+    {"event_id": "p8_e1", "true_person": "alex_project_lead", "mentioned_name": "Alex", "location": "office", "time_slot": "wed_afternoon"},
+    {"event_id": "p8_e2", "true_person": "alex_project_lead", "calendar_name": "Alex", "location": "office", "time_slot": "wed_afternoon"}
+  ]
+}

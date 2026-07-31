@@ -1,0 +1,1155 @@
+[
+  {
+    "event_id_a": "p1_e1",
+    "event_id_b": "p1_e2",
+    "same_person_probability": 1.0,
+    "confidence": 0.75,
+    "signals_used": [
+      "calendar_name",
+      "location",
+      "time_slot"
+    ],
+    "rationale": "matched on ['calendar_name', 'location', 'time_slot'], mismatched on []"
+  },
+  {
+    "event_id_a": "p1_e1",
+    "event_id_b": "p1_e3",
+    "same_person_probability": 0.5,
+    "confidence": 0.6,
+    "signals_used": [
+      "location"
+    ],
+    "rationale": "matched on ['location'], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p1_e1",
+    "event_id_b": "p2_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p1_e1",
+    "event_id_b": "p2_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p1_e1",
+    "event_id_b": "p3_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['calendar_name', 'location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e1",
+    "event_id_b": "p3_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e1",
+    "event_id_b": "p3_e3",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['calendar_name', 'location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e1",
+    "event_id_b": "p4_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e1",
+    "event_id_b": "p4_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e1",
+    "event_id_b": "p5_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e1",
+    "event_id_b": "p5_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['calendar_name', 'location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e1",
+    "event_id_b": "p6_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p1_e1",
+    "event_id_b": "p6_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p1_e1",
+    "event_id_b": "p7_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e1",
+    "event_id_b": "p8_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e1",
+    "event_id_b": "p8_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['calendar_name', 'location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e2",
+    "event_id_b": "p1_e3",
+    "same_person_probability": 0.5,
+    "confidence": 0.6,
+    "signals_used": [
+      "location"
+    ],
+    "rationale": "matched on ['location'], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p1_e2",
+    "event_id_b": "p2_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p1_e2",
+    "event_id_b": "p2_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p1_e2",
+    "event_id_b": "p3_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['calendar_name', 'location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e2",
+    "event_id_b": "p3_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e2",
+    "event_id_b": "p3_e3",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['calendar_name', 'location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e2",
+    "event_id_b": "p4_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e2",
+    "event_id_b": "p4_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e2",
+    "event_id_b": "p5_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e2",
+    "event_id_b": "p5_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['calendar_name', 'location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e2",
+    "event_id_b": "p6_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p1_e2",
+    "event_id_b": "p6_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p1_e2",
+    "event_id_b": "p7_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e2",
+    "event_id_b": "p8_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e2",
+    "event_id_b": "p8_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['calendar_name', 'location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e3",
+    "event_id_b": "p2_e1",
+    "same_person_probability": 0.5,
+    "confidence": 0.5,
+    "signals_used": [
+      "mentioned_name"
+    ],
+    "rationale": "matched on ['mentioned_name'], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p1_e3",
+    "event_id_b": "p2_e2",
+    "same_person_probability": 0.5,
+    "confidence": 0.5,
+    "signals_used": [
+      "mentioned_name"
+    ],
+    "rationale": "matched on ['mentioned_name'], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p1_e3",
+    "event_id_b": "p3_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e3",
+    "event_id_b": "p3_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e3",
+    "event_id_b": "p3_e3",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e3",
+    "event_id_b": "p4_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e3",
+    "event_id_b": "p4_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e3",
+    "event_id_b": "p5_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e3",
+    "event_id_b": "p5_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e3",
+    "event_id_b": "p6_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p1_e3",
+    "event_id_b": "p6_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p1_e3",
+    "event_id_b": "p7_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e3",
+    "event_id_b": "p8_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p1_e3",
+    "event_id_b": "p8_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p2_e1",
+    "event_id_b": "p2_e2",
+    "same_person_probability": 1.0,
+    "confidence": 0.75,
+    "signals_used": [
+      "mentioned_name",
+      "mentioned_relationship",
+      "time_slot"
+    ],
+    "rationale": "matched on ['mentioned_name', 'mentioned_relationship', 'time_slot'], mismatched on []"
+  },
+  {
+    "event_id_a": "p2_e1",
+    "event_id_b": "p3_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p2_e1",
+    "event_id_b": "p3_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p2_e1",
+    "event_id_b": "p3_e3",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p2_e1",
+    "event_id_b": "p4_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p2_e1",
+    "event_id_b": "p4_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p2_e1",
+    "event_id_b": "p5_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['mentioned_relationship', 'time_slot']"
+  },
+  {
+    "event_id_a": "p2_e1",
+    "event_id_b": "p5_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p2_e1",
+    "event_id_b": "p6_e1",
+    "same_person_probability": 0.5,
+    "confidence": 0.6,
+    "signals_used": [
+      "time_slot"
+    ],
+    "rationale": "matched on ['time_slot'], mismatched on ['mentioned_relationship']"
+  },
+  {
+    "event_id_a": "p2_e1",
+    "event_id_b": "p6_e2",
+    "same_person_probability": 0.5,
+    "confidence": 0.6,
+    "signals_used": [
+      "time_slot"
+    ],
+    "rationale": "matched on ['time_slot'], mismatched on ['mentioned_relationship']"
+  },
+  {
+    "event_id_a": "p2_e1",
+    "event_id_b": "p7_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p2_e1",
+    "event_id_b": "p8_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p2_e1",
+    "event_id_b": "p8_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p2_e2",
+    "event_id_b": "p3_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p2_e2",
+    "event_id_b": "p3_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p2_e2",
+    "event_id_b": "p3_e3",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p2_e2",
+    "event_id_b": "p4_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p2_e2",
+    "event_id_b": "p4_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p2_e2",
+    "event_id_b": "p5_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['mentioned_relationship', 'time_slot']"
+  },
+  {
+    "event_id_a": "p2_e2",
+    "event_id_b": "p5_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p2_e2",
+    "event_id_b": "p6_e1",
+    "same_person_probability": 0.5,
+    "confidence": 0.6,
+    "signals_used": [
+      "time_slot"
+    ],
+    "rationale": "matched on ['time_slot'], mismatched on ['mentioned_relationship']"
+  },
+  {
+    "event_id_a": "p2_e2",
+    "event_id_b": "p6_e2",
+    "same_person_probability": 0.5,
+    "confidence": 0.6,
+    "signals_used": [
+      "time_slot"
+    ],
+    "rationale": "matched on ['time_slot'], mismatched on ['mentioned_relationship']"
+  },
+  {
+    "event_id_a": "p2_e2",
+    "event_id_b": "p7_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p2_e2",
+    "event_id_b": "p8_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p2_e2",
+    "event_id_b": "p8_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p3_e1",
+    "event_id_b": "p3_e2",
+    "same_person_probability": 0.5,
+    "confidence": 0.6,
+    "signals_used": [
+      "location"
+    ],
+    "rationale": "matched on ['location'], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p3_e1",
+    "event_id_b": "p3_e3",
+    "same_person_probability": 1.0,
+    "confidence": 0.75,
+    "signals_used": [
+      "calendar_name",
+      "location",
+      "time_slot"
+    ],
+    "rationale": "matched on ['calendar_name', 'location', 'time_slot'], mismatched on []"
+  },
+  {
+    "event_id_a": "p3_e1",
+    "event_id_b": "p4_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e1",
+    "event_id_b": "p4_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e1",
+    "event_id_b": "p5_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e1",
+    "event_id_b": "p5_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['calendar_name', 'location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e1",
+    "event_id_b": "p6_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p3_e1",
+    "event_id_b": "p6_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p3_e1",
+    "event_id_b": "p7_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e1",
+    "event_id_b": "p8_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e1",
+    "event_id_b": "p8_e2",
+    "same_person_probability": 0.333,
+    "confidence": 0.75,
+    "signals_used": [
+      "calendar_name"
+    ],
+    "rationale": "matched on ['calendar_name'], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e2",
+    "event_id_b": "p3_e3",
+    "same_person_probability": 0.5,
+    "confidence": 0.6,
+    "signals_used": [
+      "location"
+    ],
+    "rationale": "matched on ['location'], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p3_e2",
+    "event_id_b": "p4_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e2",
+    "event_id_b": "p4_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e2",
+    "event_id_b": "p5_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e2",
+    "event_id_b": "p5_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e2",
+    "event_id_b": "p6_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p3_e2",
+    "event_id_b": "p6_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p3_e2",
+    "event_id_b": "p7_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e2",
+    "event_id_b": "p8_e1",
+    "same_person_probability": 0.333,
+    "confidence": 0.5,
+    "signals_used": [
+      "mentioned_name"
+    ],
+    "rationale": "matched on ['mentioned_name'], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e2",
+    "event_id_b": "p8_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e3",
+    "event_id_b": "p4_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e3",
+    "event_id_b": "p4_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e3",
+    "event_id_b": "p5_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e3",
+    "event_id_b": "p5_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['calendar_name', 'location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e3",
+    "event_id_b": "p6_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p3_e3",
+    "event_id_b": "p6_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p3_e3",
+    "event_id_b": "p7_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e3",
+    "event_id_b": "p8_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p3_e3",
+    "event_id_b": "p8_e2",
+    "same_person_probability": 0.333,
+    "confidence": 0.75,
+    "signals_used": [
+      "calendar_name"
+    ],
+    "rationale": "matched on ['calendar_name'], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p4_e1",
+    "event_id_b": "p4_e2",
+    "same_person_probability": 1.0,
+    "confidence": 0.75,
+    "signals_used": [
+      "location",
+      "mentioned_name",
+      "time_slot"
+    ],
+    "rationale": "matched on ['location', 'mentioned_name', 'time_slot'], mismatched on []"
+  },
+  {
+    "event_id_a": "p4_e1",
+    "event_id_b": "p5_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p4_e1",
+    "event_id_b": "p5_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p4_e1",
+    "event_id_b": "p6_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p4_e1",
+    "event_id_b": "p6_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p4_e1",
+    "event_id_b": "p7_e1",
+    "same_person_probability": 0.667,
+    "confidence": 0.75,
+    "signals_used": [
+      "location",
+      "time_slot"
+    ],
+    "rationale": "matched on ['location', 'time_slot'], mismatched on ['mentioned_name']"
+  },
+  {
+    "event_id_a": "p4_e1",
+    "event_id_b": "p8_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p4_e1",
+    "event_id_b": "p8_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p4_e2",
+    "event_id_b": "p5_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p4_e2",
+    "event_id_b": "p5_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p4_e2",
+    "event_id_b": "p6_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p4_e2",
+    "event_id_b": "p6_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p4_e2",
+    "event_id_b": "p7_e1",
+    "same_person_probability": 0.667,
+    "confidence": 0.75,
+    "signals_used": [
+      "location",
+      "time_slot"
+    ],
+    "rationale": "matched on ['location', 'time_slot'], mismatched on ['mentioned_name']"
+  },
+  {
+    "event_id_a": "p4_e2",
+    "event_id_b": "p8_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p4_e2",
+    "event_id_b": "p8_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p5_e1",
+    "event_id_b": "p5_e2",
+    "same_person_probability": 1.0,
+    "confidence": 0.6,
+    "signals_used": [
+      "location",
+      "time_slot"
+    ],
+    "rationale": "matched on ['location', 'time_slot'], mismatched on []"
+  },
+  {
+    "event_id_a": "p5_e1",
+    "event_id_b": "p6_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['mentioned_relationship', 'time_slot']"
+  },
+  {
+    "event_id_a": "p5_e1",
+    "event_id_b": "p6_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['mentioned_relationship', 'time_slot']"
+  },
+  {
+    "event_id_a": "p5_e1",
+    "event_id_b": "p7_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p5_e1",
+    "event_id_b": "p8_e1",
+    "same_person_probability": 0.5,
+    "confidence": 0.6,
+    "signals_used": [
+      "location"
+    ],
+    "rationale": "matched on ['location'], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p5_e1",
+    "event_id_b": "p8_e2",
+    "same_person_probability": 0.5,
+    "confidence": 0.6,
+    "signals_used": [
+      "location"
+    ],
+    "rationale": "matched on ['location'], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p5_e2",
+    "event_id_b": "p6_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p5_e2",
+    "event_id_b": "p6_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p5_e2",
+    "event_id_b": "p7_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p5_e2",
+    "event_id_b": "p8_e1",
+    "same_person_probability": 0.5,
+    "confidence": 0.6,
+    "signals_used": [
+      "location"
+    ],
+    "rationale": "matched on ['location'], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p5_e2",
+    "event_id_b": "p8_e2",
+    "same_person_probability": 0.333,
+    "confidence": 0.75,
+    "signals_used": [
+      "location"
+    ],
+    "rationale": "matched on ['location'], mismatched on ['calendar_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p6_e1",
+    "event_id_b": "p6_e2",
+    "same_person_probability": 1.0,
+    "confidence": 0.6,
+    "signals_used": [
+      "mentioned_relationship",
+      "time_slot"
+    ],
+    "rationale": "matched on ['mentioned_relationship', 'time_slot'], mismatched on []"
+  },
+  {
+    "event_id_a": "p6_e1",
+    "event_id_b": "p7_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p6_e1",
+    "event_id_b": "p8_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p6_e1",
+    "event_id_b": "p8_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p6_e2",
+    "event_id_b": "p7_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p6_e2",
+    "event_id_b": "p8_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p6_e2",
+    "event_id_b": "p8_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.45,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['time_slot']"
+  },
+  {
+    "event_id_a": "p7_e1",
+    "event_id_b": "p8_e1",
+    "same_person_probability": 0.0,
+    "confidence": 0.75,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'mentioned_name', 'time_slot']"
+  },
+  {
+    "event_id_a": "p7_e1",
+    "event_id_b": "p8_e2",
+    "same_person_probability": 0.0,
+    "confidence": 0.6,
+    "signals_used": [],
+    "rationale": "matched on [], mismatched on ['location', 'time_slot']"
+  },
+  {
+    "event_id_a": "p8_e1",
+    "event_id_b": "p8_e2",
+    "same_person_probability": 1.0,
+    "confidence": 0.6,
+    "signals_used": [
+      "location",
+      "time_slot"
+    ],
+    "rationale": "matched on ['location', 'time_slot'], mismatched on []"
+  }
+]
