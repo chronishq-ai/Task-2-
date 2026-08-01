@@ -1,0 +1,1577 @@
+a[
+  {
+    "event_id": "E001",
+    "timestamp": "2026-01-05T08:30",
+    "description": "New semester begins",
+    "signals": {
+      "mood": {
+        "value": 8,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 8,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 3,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 9,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 7,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 8,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E002",
+    "timestamp": "2026-01-06T10:00",
+    "description": "Prepared AI lectures",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 9,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 4,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E003",
+    "timestamp": "2026-01-07T11:30",
+    "description": "Successful first lecture",
+    "signals": {
+      "mood": {
+        "value": 9,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E004",
+    "timestamp": "2026-01-08T14:00",
+    "description": "Positive student feedback",
+    "signals": {
+      "mood": {
+        "value": 9,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E005",
+    "timestamp": "2026-01-10T09:30",
+    "description": "Promising research idea",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 9,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 10,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 8,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E006",
+    "timestamp": "2026-01-12T13:00",
+    "description": "Presented proposal",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 9,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 4,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 9,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E007",
+    "timestamp": "2026-01-14T15:30",
+    "description": "PhD student joined",
+    "signals": {
+      "mood": {
+        "value": 8,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 9,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 8,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E008",
+    "timestamp": "2026-01-18T16:00",
+    "description": "Good initial results",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 10,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 9,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E009",
+    "timestamp": "2026-01-22T11:00",
+    "description": "Conference invite",
+    "signals": {
+      "mood": {
+        "value": 9,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E010",
+    "timestamp": "2026-01-25T09:00",
+    "description": "Successful presentation",
+    "signals": {
+      "mood": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E011",
+    "timestamp": "2026-01-28T17:00",
+    "description": "Paper submitted",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 6,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E012",
+    "timestamp": "2026-02-01T10:00",
+    "description": "Student won hackathon",
+    "signals": {
+      "mood": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E013",
+    "timestamp": "2026-02-05T14:30",
+    "description": "Grant applied",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 9,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 6,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E014",
+    "timestamp": "2026-02-08T15:30",
+    "description": "Positive reviews",
+    "signals": {
+      "mood": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 3,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 10,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E015",
+    "timestamp": "2026-02-10T18:00",
+    "description": "Team celebration",
+    "signals": {
+      "mood": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 10,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 9,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E016",
+    "timestamp": "2026-02-12T09:30",
+    "description": "Student reports progress",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 10,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 10,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 10,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E017",
+    "timestamp": "2026-02-15T11:00",
+    "description": "Student submits data",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 3,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 10,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E018",
+    "timestamp": "2026-02-18T14:00",
+    "description": "Colleagues praise work",
+    "signals": {
+      "mood": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E019",
+    "timestamp": "2026-02-20T16:00",
+    "description": "Missing notes",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 9,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 9,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E020",
+    "timestamp": "2026-02-22T10:30",
+    "description": "Conference acceptance",
+    "signals": {
+      "mood": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E021",
+    "timestamp": "2026-02-24T15:00",
+    "description": "Anonymous complaint",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E022",
+    "timestamp": "2026-02-26T13:00",
+    "description": "Student explanation",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E023",
+    "timestamp": "2026-03-01T09:00",
+    "description": "Award nomination",
+    "signals": {
+      "mood": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E024",
+    "timestamp": "2026-03-03T11:00",
+    "description": "Media interview",
+    "signals": {
+      "mood": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 9,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E025",
+    "timestamp": "2026-03-05T16:30",
+    "description": "Department celebration",
+    "signals": {
+      "mood": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 10,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 10,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E026",
+    "timestamp": "2026-03-08T10:00",
+    "description": "Formal complaint",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E027",
+    "timestamp": "2026-03-10T14:30",
+    "description": "Committee requests data",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 9,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 6,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E028",
+    "timestamp": "2026-03-12T15:00",
+    "description": "Records missing",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E029",
+    "timestamp": "2026-03-14T09:30",
+    "description": "Student unreachable",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 3,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E030",
+    "timestamp": "2026-03-16T17:00",
+    "description": "Data inconsistencies",
+    "signals": {
+      "mood": {
+        "value": 4,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 2,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 3,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E031",
+    "timestamp": "2026-03-18T10:00",
+    "description": "Student confessed",
+    "signals": {
+      "mood": {
+        "value": 3,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 1,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 2,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E032",
+    "timestamp": "2026-03-19T14:30",
+    "description": "Paper withdrawn",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E033",
+    "timestamp": "2026-03-21T11:00",
+    "description": "Professor cleared",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 7,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E034",
+    "timestamp": "2026-03-23T09:00",
+    "description": "Public apology",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 7,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 3,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E035",
+    "timestamp": "2026-03-25T13:00",
+    "description": "Restarted research",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 6,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E036",
+    "timestamp": "2026-03-28T15:00",
+    "description": "New research team",
+    "signals": {
+      "mood": {
+        "value": 6,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 8,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E037",
+    "timestamp": "2026-04-02T11:30",
+    "description": "Results reproduced",
+    "signals": {
+      "mood": {
+        "value": 7,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 7,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E038",
+    "timestamp": "2026-04-06T10:00",
+    "description": "Resubmitted paper",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 9,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 7,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E039",
+    "timestamp": "2026-04-12T16:00",
+    "description": "Peer support",
+    "signals": {
+      "mood": {
+        "value": 7,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E040",
+    "timestamp": "2026-04-18T09:30",
+    "description": "Corrected paper accepted",
+    "signals": {
+      "mood": {
+        "value": 8,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E041",
+    "timestamp": "2026-04-22T13:00",
+    "description": "Grant received",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 9,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 10,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 7,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E042",
+    "timestamp": "2026-04-28T10:30",
+    "description": "Research ethics workshop",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 9,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 9,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 10,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E043",
+    "timestamp": "2026-05-05T14:00",
+    "description": "New student succeeds",
+    "signals": {
+      "mood": {
+        "value": 9,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E044",
+    "timestamp": "2026-05-12T16:30",
+    "description": "Ethics award",
+    "signals": {
+      "mood": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 5,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 5,
+        "spread": 3.0
+      }
+    }
+  },
+  {
+    "event_id": "E045",
+    "timestamp": "2026-05-20T18:00",
+    "description": "Reflection on verification",
+    "signals": {
+      "mood": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "focus": {
+        "value": 10,
+        "spread": 2.0
+      },
+      "stress": {
+        "value": 5,
+        "spread": 2.0
+      },
+      "confidence": {
+        "value": 5,
+        "spread": 2.5
+      },
+      "motivation": {
+        "value": 10,
+        "spread": 2.5
+      },
+      "trust": {
+        "value": 8,
+        "spread": 3.5
+      },
+      "social_engagement": {
+        "value": 9,
+        "spread": 3.0
+      }
+    }
+  }
+]
