@@ -1,12 +1,16 @@
 from core.state_manager import StateManager
 
 
-def test_fast_variable_changes_significantly():
-
-    manager = StateManager({
+def build_initial_state():
+    return {
         "mood": 5, "focus": 5, "stress": 5, "confidence": 5,
         "trust": 5, "motivation": 5, "social_engagement": 5
-    })
+    }
+
+
+def test_fast_variable_changes_significantly():
+
+    manager = StateManager(build_initial_state())
 
     manager.process_event({
         "mood": {"value": 9, "confidence": 0.9}
@@ -15,15 +19,12 @@ def test_fast_variable_changes_significantly():
     new_state = manager.get_current_state()
 
     # mood is fast, should move noticeably toward 9
-    assert new_state["mood"] > 6.5
+    assert new_state["mood"]["value"] > 6.5
 
 
 def test_slow_variable_stays_stable():
 
-    manager = StateManager({
-        "mood": 5, "focus": 5, "stress": 5, "confidence": 5,
-        "trust": 5, "motivation": 5, "social_engagement": 5
-    })
+    manager = StateManager(build_initial_state())
 
     manager.process_event({
         "trust": {"value": 1, "confidence": 0.9}
@@ -32,7 +33,7 @@ def test_slow_variable_stays_stable():
     new_state = manager.get_current_state()
 
     # trust is slow, should barely move even with a strong signal
-    assert abs(new_state["trust"] - 5) < 1
+    assert abs(new_state["trust"]["value"] - 5) < 1
 
 
 def test_values_stay_within_range():
@@ -48,16 +49,13 @@ def test_values_stay_within_range():
 
     new_state = manager.get_current_state()
 
-    for variable, value in new_state.items():
-        assert 0 <= value <= 10
+    for variable, data in new_state.items():
+        assert 0 <= data["value"] <= 10
 
 
 def test_multiple_events_sequence():
 
-    manager = StateManager({
-        "mood": 5, "focus": 5, "stress": 5, "confidence": 5,
-        "trust": 5, "motivation": 5, "social_engagement": 5
-    })
+    manager = StateManager(build_initial_state())
 
     manager.process_event({"mood": {"value": 9, "confidence": 0.9}})
     manager.process_event({"mood": {"value": 2, "confidence": 0.8}})
@@ -65,7 +63,7 @@ def test_multiple_events_sequence():
     new_state = manager.get_current_state()
 
     # after a big drop following a big rise, mood should be lower than the peak
-    assert new_state["mood"] < 9
+    assert new_state["mood"]["value"] < 9
 
 
 test_fast_variable_changes_significantly()
