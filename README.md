@@ -1,7 +1,5 @@
 # Chronis-AI Pod D: Belief Smoothing Engine (v0.2)
 
-## Project Overview
-
 This repository contains **v0.2** of the Chronis-AI belief smoothing engine developed by **Pod D**. 
 
 The core objective of this project is to implement a retroactive belief state adjustment—comparing what an AI system believed at a specific time in the past (**"Then"**) versus what it *should* have believed given subsequent evidence that emerged later (**"Now"**). This is achieved through a "backward smoothing" algorithm that pulls past estimates towards later evidence using inverse-variance weighting.
