@@ -1,23 +1,39 @@
 import math
 
+# Real Pod A engine — replaces the placeholder math that used to live here.
+from core.confidence_handler import confidence_weighted_update
+from core.spread_handler import update_spread
+from core.config_loader import load_state_schema
+
+_SCHEMA = load_state_schema()
+
 STARTING_STATE = {
-    "mood": {"value": 5, "spread": 2.0},
-    "focus": {"value": 5, "spread": 2.0},
-    "stress": {"value": 5, "spread": 2.0},
-    "confidence": {"value": 5, "spread": 2.5},
-    "motivation": {"value": 5, "spread": 2.5},
-    "trust": {"value": 5, "spread": 3.5},
-    "social_engagement": {"value": 5, "spread": 3.0},
+    name: {"value": 5, "spread": info["initial_spread"]}
+    for name, info in _SCHEMA["variables"].items()
 }
 
 
-def update_state(current_value, current_spread, suggested_value, confidence):
-    variable_speed = 0.8
-    effective_speed = variable_speed * confidence
-    new_value = current_value + effective_speed * (suggested_value - current_value)
+def update_state(current_value, current_spread, suggested_value, confidence,
+                  variable_name=None):
+    """
+    Real Pod A logic (was a placeholder before Pod A shipped v0.2).
+    variable_name is used to look up this variable's real speed/range from
+    Pod A's shared schema. Falls back to mood's settings if not given, for
+    backward compatibility with any caller that doesn't pass it.
+    """
+    var_info = _SCHEMA["variables"].get(
+        variable_name, _SCHEMA["variables"]["mood"]
+    )
+    variable_speed = var_info["speed"]
+    min_value, max_value = var_info["range"]
 
-    shrink_factor = 1 - (confidence * 0.5)
-    new_spread = current_spread * shrink_factor
+    new_value = confidence_weighted_update(
+        current_value, suggested_value, variable_speed, confidence,
+        min_value, max_value,
+    )
+    new_spread = update_spread(
+        current_value, suggested_value, current_spread, confidence
+    )
 
     return new_value, new_spread
 
@@ -57,7 +73,8 @@ def get_belief_then(starting_state, events, target_date):
         confidence = event["confidence"]
 
         new_value, new_spread = update_state(
-            old_value, old_spread, suggested_value, confidence
+            old_value, old_spread, suggested_value, confidence,
+            variable_name=variable_name,
         )
 
         current_state[variable_name]["value"] = new_value
@@ -103,7 +120,10 @@ def get_belief_now(starting_state, events, target_date):
         suggested_value = event["suggested_value"]
         signal_confidence = event["confidence"]
 
-        new_val, new_spr = update_state(old_val, old_spr, suggested_value, signal_confidence)
+        new_val, new_spr = update_state(
+            old_val, old_spr, suggested_value, signal_confidence,
+            variable_name=variable_name,
+        )
         implied_state[variable_name]["value"] = new_val
         implied_state[variable_name]["spread"] = new_spr
 
