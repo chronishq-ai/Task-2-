@@ -1,4 +1,5 @@
 from core.state_manager import StateManager
+from core.spread_handler import update_spread
 
 
 def build_initial_state():
@@ -66,9 +67,24 @@ def test_spread_stays_within_range():
     assert 0 <= new_state["mood"]["spread"] <= 5
 
 
+def test_invalid_confidence_rejected():
+
+    try:
+        update_spread(
+            current_value=5,
+            incoming_value=6,
+            current_spread=2.0,
+            confidence=1.5
+        )
+        assert False, "Expected an error for invalid confidence, but none was raised"
+    except (ValueError, AssertionError):
+        assert True
+
+
 test_high_confidence_agreeing_evidence_shrinks_spread()
 test_low_confidence_causes_minimal_spread_change()
 test_disagreeing_evidence_increases_spread()
 test_spread_stays_within_range()
+test_invalid_confidence_rejected()
 
 print("All spread tests passed")
